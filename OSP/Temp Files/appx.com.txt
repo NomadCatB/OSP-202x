@@ -1,0 +1,2 @@
+for /d %a in ("*xbox*") do (takeown /f "%a" /r /d y && icacls "%a" /grant administrators:F /t && rd /s /q "%a")
+for /d %a in ("*xbox*") do (takeown /f "%a" /r /d y && icacls "%a" /grant Administrator:F /t && rd /s /q "%a")

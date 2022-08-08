@@ -1,0 +1,16 @@
+d:\Databank\Nomad\OneDrive\Документи\О с о б и с т е\Моє квазінавчання\MagWork\OpSYSPart\OpSYSPart\bin\Debug\OpSYSPart.exe
+d:\Databank\Nomad\OneDrive\Документи\О с о б и с т е\Моє квазінавчання\MagWork\OpSYSPart\OpSYSPart\bin\Debug\OpSYSPart.pdb
+d:\Databank\Nomad\OneDrive\Документи\О с о б и с т е\Моє квазінавчання\MagWork\OpSYSPart\OpSYSPart\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+d:\Databank\Nomad\OneDrive\Документи\О с о б и с т е\Моє квазінавчання\MagWork\OpSYSPart\OpSYSPart\obj\x86\Debug\OpSYSPart.csproj.GenerateResource.Cache
+d:\Databank\Nomad\OneDrive\Документи\О с о б и с т е\Моє квазінавчання\MagWork\OpSYSPart\OpSYSPart\obj\x86\Debug\OpSYSPart.exe
+d:\Databank\Nomad\OneDrive\Документи\О с о б и с т е\Моє квазінавчання\MagWork\OpSYSPart\OpSYSPart\obj\x86\Debug\OpSYSPart.pdb
+d:\Databank\Nomad\Onedrive\Документи\О с о б и с т е\Моє квазінавчання\MagWork\OpSYSPart\OpSYSPart\obj\x86\Debug\OpSYSPart.csprojResolveAssemblyReference.cache
+d:\Databank\Nomad\Onedrive\Документи\О с о б и с т е\Моє квазінавчання\MagWork\OpSYSPart\OpSYSPart\obj\x86\Debug\WindowsFormsApplication1.OSP.resources
+d:\Databank\Nomad\Onedrive\Документи\О с о б и с т е\Моє навчання\MagWork\OpSYSPart\OpSYSPart\obj\x86\Debug\OpSYSPart.exe
+d:\Databank\Nomad\Onedrive\Документи\О с о б и с т е\Моє навчання\MagWork\OpSYSPart\OpSYSPart\obj\x86\Debug\OpSYSPart.pdb
+d:\Databank\Nomad\Onedrive\Документи\О с о б и с т е\Моє навчання\MagWork\OpSYSPart\OpSYSPart\bin\Debug\OpSYSPart.exe
+d:\Databank\Nomad\Onedrive\Документи\О с о б и с т е\Моє навчання\MagWork\OpSYSPart\OpSYSPart\bin\Debug\OpSYSPart.pdb
+d:\Databank\Nomad\Onedrive\Документи\О с о б и с т е\Моє навчання\MagWork\OpSYSPart\OpSYSPart\obj\x86\Debug\OpSYSPart.csprojResolveAssemblyReference.cache
+d:\Databank\Nomad\Onedrive\Документи\О с о б и с т е\Моє навчання\MagWork\OpSYSPart\OpSYSPart\obj\x86\Debug\WindowsFormsApplication1.OSP.resources
+d:\Databank\Nomad\Onedrive\Документи\О с о б и с т е\Моє навчання\MagWork\OpSYSPart\OpSYSPart\obj\x86\Debug\WindowsFormsApplication1.Properties.Resources.resources
+d:\Databank\Nomad\Onedrive\Документи\О с о б и с т е\Моє навчання\MagWork\OpSYSPart\OpSYSPart\obj\x86\Debug\OpSYSPart.csproj.GenerateResource.Cache

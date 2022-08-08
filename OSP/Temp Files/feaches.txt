@@ -1,0 +1,3 @@
+c:\Config.Msi 
+System Volume Information
+$recycle.bin відключення корзини

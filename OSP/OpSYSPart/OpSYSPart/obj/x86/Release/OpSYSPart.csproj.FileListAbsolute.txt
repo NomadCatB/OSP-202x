@@ -1,0 +1,16 @@
+d:\Databank\Nomad\OneDrive\Документи\О с о б и с т е\Моє квазінавчання\MagWork\OpSYSPart\OpSYSPart\obj\x86\Release\WindowsFormsApplication1.Properties.Resources.resources
+d:\Databank\Nomad\OneDrive\Документи\О с о б и с т е\Моє квазінавчання\MagWork\OpSYSPart\OpSYSPart\obj\x86\Release\OpSYSPart.csproj.GenerateResource.Cache
+d:\Databank\Nomad\OneDrive\Документи\О с о б и с т е\Моє квазінавчання\MagWork\OpSYSPart\OpSYSPart\bin\Release\OpSYSPart.exe
+d:\Databank\Nomad\OneDrive\Документи\О с о б и с т е\Моє квазінавчання\MagWork\OpSYSPart\OpSYSPart\bin\Release\OpSYSPart.pdb
+d:\Databank\Nomad\OneDrive\Документи\О с о б и с т е\Моє квазінавчання\MagWork\OpSYSPart\OpSYSPart\obj\x86\Release\OpSYSPart.csprojResolveAssemblyReference.cache
+d:\Databank\Nomad\OneDrive\Документи\О с о б и с т е\Моє квазінавчання\MagWork\OpSYSPart\OpSYSPart\obj\x86\Release\OpSYSPart.exe
+d:\Databank\Nomad\OneDrive\Документи\О с о б и с т е\Моє квазінавчання\MagWork\OpSYSPart\OpSYSPart\obj\x86\Release\OpSYSPart.pdb
+d:\Databank\Nomad\Onedrive\Документи\О с о б и с т е\Моє квазінавчання\MagWork\OpSYSPart\OpSYSPart\obj\x86\Release\WindowsFormsApplication1.OSP.resources
+d:\Databank\Nomad\Onedrive\Документи\О с о б и с т е\Моє навчання\MagWork\OpSYSPart\OpSYSPart\bin\Release\OpSYSPart.exe
+d:\Databank\Nomad\Onedrive\Документи\О с о б и с т е\Моє навчання\MagWork\OpSYSPart\OpSYSPart\bin\Release\OpSYSPart.pdb
+d:\Databank\Nomad\Onedrive\Документи\О с о б и с т е\Моє навчання\MagWork\OpSYSPart\OpSYSPart\obj\x86\Release\OpSYSPart.csprojResolveAssemblyReference.cache
+d:\Databank\Nomad\Onedrive\Документи\О с о б и с т е\Моє навчання\MagWork\OpSYSPart\OpSYSPart\obj\x86\Release\WindowsFormsApplication1.OSP.resources
+d:\Databank\Nomad\Onedrive\Документи\О с о б и с т е\Моє навчання\MagWork\OpSYSPart\OpSYSPart\obj\x86\Release\WindowsFormsApplication1.Properties.Resources.resources
+d:\Databank\Nomad\Onedrive\Документи\О с о б и с т е\Моє навчання\MagWork\OpSYSPart\OpSYSPart\obj\x86\Release\OpSYSPart.csproj.GenerateResource.Cache
+d:\Databank\Nomad\Onedrive\Документи\О с о б и с т е\Моє навчання\MagWork\OpSYSPart\OpSYSPart\obj\x86\Release\OpSYSPart.exe
+d:\Databank\Nomad\Onedrive\Документи\О с о б и с т е\Моє навчання\MagWork\OpSYSPart\OpSYSPart\obj\x86\Release\OpSYSPart.pdb

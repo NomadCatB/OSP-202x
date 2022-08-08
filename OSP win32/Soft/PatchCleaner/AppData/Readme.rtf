@@ -1,0 +1,153 @@
+{\rtf1\ansi\ansicpg1252\deff0\nouicompat{\fonttbl{\f0\fnil\fcharset0 Calibri;}{\f1\fnil\fcharset2 Symbol;}}
+{\*\generator Riched20 10.0.10586}\viewkind4\uc1 
+\pard\b\f0\fs28\lang3081 Release Notes\par
+\par
+\fs24 Version 1.4.2.0 (Mar 2016) - Hotfix release\par
+\b0\fs22\par
+Version 1.4.2.0 of PatchCleaner implements the following fixes:\par
+\par
+
+\pard\li720 1. Fix for object not found crash in UI.\par
+2. Fix for crash on Cannot convert Null to System.DateTime\par
+3. Error handling for vbScript not configured on PC.\par
+4. Fix for duplicate patch files appearing\par
+5. UI enhancement for missing files.\par
+
+\pard\par
+Thats all the bugs fixed now.\b\fs28\par
+\par
+\fs24 Version 1.4.1.0 (Feb 2016) - Hotfix release\par
+\b0\fs22\par
+Version 1.4.1.0 of PatchCleaner implements the following fixes:\par
+\par
+
+\pard\li720 1. Fix for Shell32 program crash\par
+2. Improved error handling after all the previous crashes.\par
+3. Improved product crash handling\par
+4. Improved file access performance\par
+5. Deep scan mode for improved performance but reduced functionality.\par
+6. Move to .Net Framework 4.5.2\par
+7. Fixes for issues on Non-English versions of windows.\par
+8. Missing msi/msp file notification\par
+
+\pard\par
+\b\fs24 Version 1.4.0.0 (10 Feb 2016)\par
+\par
+\b0\fs22 Version 1.4.0.0 of PatchCleaner implements new functionality, including:\par
+\par
+\b\i File Details\b0\i0\par
+PatchCleaner now provides the details of:\par
+
+\pard\li720 1. The files that are still in use and need to be retained\par
+2. The orphaned files including those files that are excluded via the exclusion filters\par
+
+\pard\par
+\b\i Exclusion filters\b0\i0  \par
+There is a known issue in previous versions where PatchCleaner falsely identifies Adobe Acrobat Reader patches as not being required. Adobe do something proprietary when it comes to their automatic updating such that if PatchCleaner removes the "orphaned" patches from the installer directory, Adobe Reader automatic updates will no longer successfully install. \par
+\par
+The exclusion filters feature allows you to add keywords that are used in "contains" filters to exclude patches that match these keywords. These "contains" checks are applied against the file title, subject, author and digital signature.\par
+\par
+PatchCleaner is now pre-configured to exclude "Acrobat" which will exclude any Adobe Reader files from the set of orphaned files.\par
+\par
+These exclusion filters are able to altered by you.\par
+\par
+\b\i Bug Fixes\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\b0\i0 Issue with the "version" checking where version 1.3.0.0 always displayed that version 1.3.0.0 was available for download.\par
+
+\pard\par
+\b\i Adobe Reader\par
+\b0\i0 If you are concerned that PatchCleaner has detected your AdobeReader patches as orphaned, you could apply the following steps to recover them. (Note: This assumes you have used the move feature and have access to the full list of patches that have been marked as orphaned.)\par
+\par
+
+\pard 
+{\pntext\f0 1.\tab}{\*\pn\pnlvlbody\pnf0\pnindent0\pnstart1\pndec{\pntxta.}}
+\fi-360\li720 Install PatchCleaner 1.4.0.0\par
+{\pntext\f0 2.\tab}Run patch cleaner\par
+{\pntext\f0 3.\tab}Move your orphaned files to your "Move" folder. Patch cleaner should now say you have "0" orphaned files.\par
+{\pntext\f0 4.\tab}Copy your patches from your "Move" location back to "c:\\windows\\installer"\par
+{\pntext\f0 5.\tab}Run PatchCleaner (or click refresh if you left it running)\par
+{\pntext\f0 6.\tab}Use the delete action.\par
+
+\pard\par
+Any Adobe Reader patches that were copied back to "c:\\windows\\installer" as part of step 4, will have been excluded from the set of orphaned files and will remain in the installer folder.\par
+\b\fs28\par
+\fs24 Version 1.3.0.0 (Nov 2015)\par
+\par
+\b0\fs22 Version 1.3.0.0 of patch cleaner implements a CLI, (Command Line Interface).\par
+\par
+The application can now be run from the command line with the following switches:\par
+\par
+     /d  - This will execute with the delete action.\par
+     /m - This will execute the move action with the default location as stored in your local app configuration.\par
+     /m [FilePath] - This will execute the move action, where [FilePath] is the location you wish to move the files to.\par
+\par
+The process will write the output to the console window and also to the windows event log.\par
+\par
+\b\i Bug Fixes\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\b0\i0 There was code to ensure that the application had write access to the "Move" location. This seemed to cause security issues if your move location was the root of your drive. This functionality has been removed and the application will just log an error if it does not have write permission to write to the target "Move" location. \par
+
+\pard\par
+\b\fs24 Version 1.2.0.0\par
+\b0\fs22\par
+Released 6/16/2015\par
+\par
+This version contains some minor fixes, including:\par
+\par
+Fix to save the move folder location between sessions. Previously PatchCleaner would not retain you chosen move location.\par
+Performance improvements, by removal of redundant code.\par
+Note: There have been no functional changes to the code\par
+\par
+Since version 1.1.1.0, HomeDev has performed further testing, which involved testing with the latest round of windows updates.\par
+\par
+All windows update patches installed with no issues being encountered.\par
+\par
+Running patch cleaner after running a large set of windows updates recovered another 1GB of free space.\par
+\par
+\b\fs24 Version 1.1.0.0\par
+\b0\fs22\par
+\i Released 9-Jun-2015\par
+\i0\par
+Hotfix for issue that was identifying false positives.\par
+\par
+There was a bug that was falsely identifying a small number of patches as orphaned when in fact they were not. For example on a test computer it found 42 files worth 300MB of actual patch files that should have been retained.\par
+\par
+If you used the move function the recovery process is:\par
+\par
+ copy the files back into the c:\\windows\\Installer directory; and\par
+re-run the PatchCleaner v1.1.0.0  to correctly identify orphaned patches.\par
+If you deleted... Sorry :-(\par
+\par
+I ran this for over a month with out any issues before releasing the first version of the product. It was only today that I had my first issue.\par
+\par
+I appologise if this has caused any problems.\par
+\par
+ \par
+\b\fs24 Version 1.0.1.0\par
+\b0\fs22\par
+\i Released  2-Jun-2015\par
+\i0\par
+Fixes issue with move action crashing.\par
+\par
+Added better error capturing around the move logic.\par
+\par
+If you have crashes when attempting the move action it will be related to file system permissions. Try choosing a destination location that you have full control over.\par
+\par
+\b\fs24 Version 1.0.0.0\par
+\b0\fs22\par
+\i Released 23-May-2015\i0\par
+\par
+First version of PatchCleaner.\par
+\par
+\b\fs28 Known Issues\par
+\b0\fs22 PatchCleaner obtains a list  of known patches that are required by the computer from the Operating system. This list is then compared against all the files in the c:\\Windows\\Installer directory. Everything in the folder thta is not on the list is considered orphaned. This approach is not guaranteed to be faultless and can find "false positives", and potentially delete a patch that is required.\par
+\par
+The following is a list of known issues where PatchCleaner may incorrectly delete a required Patch causing an installer or updater to stop working.\par
+\par
+
+\pard{\pntext\f1\'B7\tab}{\*\pn\pnlvlblt\pnf1\pnindent0{\pntxtb\'B7}}\fi-360\li720\b\i Adobe Reader\b0\i0  - The automated update packages for adobe reader can error after running patch cleaner. The work around is to uninstall and re-install to upgrade Adobe Reader. The issue is PatchCleaner correctly retains the last Adobe reader patch, but the Adobe reader updater uses more than just the last patch when updating, so the missing patch files for previous, previous versions will cause the auto updater to fail.\b\fs28\par
+
+\pard\b0\fs22\par
+}
+ 
